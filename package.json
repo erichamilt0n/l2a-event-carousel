@@ -6,13 +6,13 @@
   "type": "module",
   "author": "L2A Team",
   "license": "MIT",
-  "homepage": "https://github.com/your-username/l2a-event-carousel#readme",
+  "homepage": "https://github.com/erichamilt0n/l2a-event-carousel#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/l2a-event-carousel.git"
+    "url": "git+https://github.com/erichamilt0n/l2a-event-carousel.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/l2a-event-carousel/issues"
+    "url": "https://github.com/erichamilt0n/l2a-event-carousel/issues"
   },
   "keywords": [
     "react",

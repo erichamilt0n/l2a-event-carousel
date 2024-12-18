@@ -33,7 +33,7 @@ A responsive, auto-scrolling event carousel built with React, TypeScript, and Fr
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/l2a-event-carousel.git
+git clone https://github.com/erichamilt0n/l2a-event-carousel.git
 cd l2a-event-carousel
 ```
 
