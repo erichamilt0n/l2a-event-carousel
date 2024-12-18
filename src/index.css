@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+html {
+  background-color: rgb(31, 41, 55);
+  color: white;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+/* Gradient overlays */
+.gradient-overlay {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 8rem;
+}
+
+.gradient-left {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgba(31, 41, 55, 0.8),
+    rgba(31, 41, 55, 0)
+  );
+}
+
+.gradient-right {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(31, 41, 55, 0.8),
+    rgba(31, 41, 55, 0)
+  );
+}
